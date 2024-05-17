@@ -1,0 +1,70 @@
+body {
+  line-height: 1.7;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: yekan;
+  font-weight: 1100;
+  position: relative;
+  direction: rtl !important;
+  background-color: rgba(43, 205, 226, 0.877) !important;
+
+  background: #43cea2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #185b9db2,
+    #43cea2c2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #185b9de1,
+    #43cea293
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+@font-face {
+  font-family: yekan;
+  src: url("../font/BYekan+.ttf") format("truetype");
+}
+:not(i) {
+  font-family: yekan;
+}
+.directionRtl {
+  direction: rtl !important;
+}
+.directionLtr {
+  direction: ltr !important;
+}
+.roundingTheInput {
+  border-radius: 50px !important;
+}
+.roundingTheInputBox {
+  border-radius: 15px !important;
+  width: 350px;
+}
+#map {
+  height: 80vh;
+}
+
+.cardSummary {
+  position: absolute !important;
+  top: 66vh;
+  left: 35vw;
+  z-index: 999;
+  width: 600px;
+}
+.searchButton {
+  position: absolute !important;
+  transform: translateX(55px) !important;
+  z-index: 999 !important;
+}
+.leaflet-container {
+  width: 100wh;
+  height: 100vh;
+}
+
+/* .loginFormContainer {
+  width: 700px !important;
+} */
+.inputBox {
+  width: 500px;
+  background-color: rgba(0, 255, 255, 0.336);
+}
