@@ -14,6 +14,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+######for the inputs use default values of NAME and PASSWORD and in the section of searching for vehicle use random at least 2 charecter of words (this part is just for fetching sample data from server) and click ofn search button and finally register the trip and get your  vetification code #######
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
